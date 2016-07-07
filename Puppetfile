@@ -15,3 +15,6 @@ mod 'outset',
  
 mod 'stdlib',
     :git => 'https://github.com/puppetlabs/puppetlabs-stdlib'
+    
+mod 'puppet-puppet_run',
+    :git => 'https://github.com/grahamgilbert/puppet-puppet_run'
