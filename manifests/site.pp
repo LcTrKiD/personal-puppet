@@ -29,4 +29,8 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+    mac_profiles_handler::manage { 'com.adobe.Reader':  
+    ensure  => present,  
+    file_source => 'puppet:///installer_files/com.adobe.Reader.mobileconfig',  
+  }
 }
