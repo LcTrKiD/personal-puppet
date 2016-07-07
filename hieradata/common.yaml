@@ -4,7 +4,6 @@
 
 classes:
   - mac_profiles_handler
-  mac_profiles_handler::manage:
-    com.adobe.Reader:
-      ensure: present
-      file_source: puppet:///installer_files/com.adobe.Reader.mobileconfig
+  mac_profiles_handler::manage: com.adobe.Reader
+    ensure: present
+    file_source: puppet:///installer_files/com.adobe.Reader.mobileconfig
